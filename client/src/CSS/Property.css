@@ -1,0 +1,78 @@
+/* Properties.css */
+
+.custom-properties-container {
+    margin: 20px;
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .custom-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+  
+  .custom-col-lg-4 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    padding: 10px;
+  }
+  
+  .custom-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-card-img-top {
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    width: 100%;
+    height: 250px; /* Increased height to 250 pixels */
+  }
+  
+  .custom-card-body {
+    padding: 10px;
+  }
+  
+  .custom-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .custom-card-text {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .card-buttons {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .card-buttons button {
+    margin-right: 400px; 
+  }
+  
+  .heart-icon {
+    width: 24px;
+    height: 24px;
+    fill: grey; /* Default color */
+    transition: fill 0.2s;
+  }
+  
+  .heart-icon.liked {
+    fill: red; /* Liked color */
+  }
+  

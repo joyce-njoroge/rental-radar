@@ -1,0 +1,64 @@
+/* Join.css */
+/* Join.css */
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 20px auto;
+  max-width: 800px;
+ /* Adjust max-height to reduce the container's height */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+  .title {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .card-deck {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 400px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .message {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .sign-up-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sign-up-button:hover {
+    background-color: #218838;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

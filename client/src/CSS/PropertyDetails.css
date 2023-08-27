@@ -1,0 +1,329 @@
+/* PropertyDetails.css */
+
+/* Section 1: Images */
+.image-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 25%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Set the background color with opacity */
+  color: #ffffff;
+  border: none;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Images with fixed width and height */
+.image-container img {
+  width: 650px; /* Adjust the width as per your requirement */
+  height: 300px; /* Adjust the height as per your requirement */
+  object-fit: cover; /* Ensure the image retains its aspect ratio within the fixed dimensions */
+}
+
+.image-carousel img {
+  max-width: 100%;
+  height: 400px;
+}
+
+/* Section 2: Overview, Description, and Property Owner */
+.sections-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+/* Left Section: Overview and Description */
+.left-section {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 2px;
+}
+
+.overview {
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: grid; /* Use CSS grid to create the two-column layout */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-gap: 10px; /* Gap between columns */
+}
+
+.overview h2 {
+  font-size: 20px;
+  grid-column: 1 / -1; /* Span the h2 across both columns */
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.description h2 {
+  font-size: 20px;
+}
+
+/* Right Section: Property Owner and Inquire Form */
+.right-section1 {
+  flex: 6;
+  display: flex;
+  /* height: 500px; */
+}
+
+.property-owner {
+  font-size: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: 50%; /* Set the width to 40% to cover the left 40% of the right section */
+  margin-right: 20px; /* Add margin to separate Property Owner and Inquire Form */
+}
+
+/* PropertyInquiryForm.css */
+.inquire-form {
+  font-size: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: 50%;
+}
+
+.inquire-form h2 {
+  font-size: 20px;
+}
+
+.inquire-form form {
+  margin-top: 10px; /* Add margin to the top of the form */
+}
+
+.inquire-form label {
+  display: block;
+  margin-bottom: 5px; /* Add margin to the bottom of the label */
+}
+
+.inquire-form input,
+.inquire-form textarea {
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inquire-form textarea {
+  resize: vertical;
+}
+
+.inquire-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inquire-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.property-owner img {
+  max-width: 500px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.property-owner p {
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property-owner p span {
+  flex: 1; /* Allow the label to occupy available space */
+}
+
+.property-owner p strong {
+  flex: 2; /* Allow the information to occupy more space to align with labels */
+}
+
+.property-owner h2 {
+  font-size: 20px;
+  text-align: center;
+  grid-column: 1 / -1; /* Span the h2 across both columns */
+}
+
+
+/* Section 2: Address, Property Details, and House Video Tour */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+/* Section 5: Address */
+.address {
+  /* margin-top: 20px; */
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: grid; /* Use CSS grid to create the two-column layout */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-gap: 10px; /* Gap between columns */
+}
+
+.address p {
+  margin-bottom: 5px;
+}
+
+.address a {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.address h2 {
+  font-size: 20px;
+  grid-column: 1 / -1; /* Span the h2 across both columns */
+}
+
+/* Section 6: Property Details */
+.property-details {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: grid; /* Use CSS grid to create the two-column layout */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-gap: 10px; /* Gap between columns */
+}
+
+.property-details h2 {
+  font-size: 18px;
+  grid-column: 1 / -1; /* Span the h2 across both columns */
+}
+
+.property-details p {
+  margin-bottom: 5px;
+}
+
+.property-details h2 {
+  font-size: 20px;
+}
+
+/* Section 7: House Video Tour */
+.house-video-tour {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  position: relative; /* Add this position property */
+}
+
+.house-video-tour h2 {
+  font-size: 20px;
+}
+
+.house-video-tour video {
+  width: 100%; 
+  height: 70%; 
+  left: 20px;
+  right: 20px;
+}
+
+/* Section 8: Review */
+.right-section2 {
+  /* margin-top: 10px; */
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: 40%;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-form {
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: center;
+}
+
+.review-form form {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.review-form label {
+  font-weight: bold;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.review-form select {
+  cursor: pointer;
+}
+
+.review-form button[type='submit'] {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-form button[type='submit']:hover {
+  background-color: #0056b3;
+}
+

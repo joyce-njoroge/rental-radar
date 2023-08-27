@@ -1,0 +1,74 @@
+/* styles.css */
+
+.mt-10 {
+  margin-top: 2.5rem; /* Equivalent to 10 units in Tailwind */
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* Equivalent to text-2xl in Tailwind */
+}
+
+.text-green-600 {
+  color: #036800; /* Equivalent to text-green-600 in Tailwind */
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.space-y-5 > * + * {
+  margin-top: 1.25rem; /* Equivalent to space-y-5 in Tailwind */
+}
+
+.bg-slate-100 {
+  background-color: #e5e7eb; /* Equivalent to bg-slate-100 in Tailwind */
+}
+
+.rounded-xl {
+  border-radius: 0.75rem; /* Equivalent to rounded-xl in Tailwind */
+}
+
+.text-center {
+  text-align: center; /* Equivalent to text-center in Tailwind */
+}
+
+.bg-green-600 {
+  background-color: #036800; /* Equivalent to bg-green-600 in Tailwind */
+}
+
+.text-white {
+  color: #ffffff; /* Equivalent to text-white in Tailwind */
+}
+
+.px-2 {
+  padding-left: 0.5rem; /* Equivalent to px-2 in Tailwind */
+  padding-right: 0.5rem; /* Equivalent to px-2 in Tailwind */
+}
+
+.py-1 {
+  padding-top: 0.25rem; /* Equivalent to py-1 in Tailwind */
+  padding-bottom: 0.25rem; /* Equivalent to py-1 in Tailwind */
+}
+
+.rounded-2xl {
+  border-radius: 1rem; /* Equivalent to rounded-2xl in Tailwind */
+}
+
+
+

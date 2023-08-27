@@ -1,0 +1,151 @@
+/* .search-container {
+  padding: 20px;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap:wrap-reverse; 
+  width: 100%
+} */
+.search-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* Adjust as needed */
+}
+
+.search-form {
+  display: flex;
+  margin-left: 100px;
+  flex-direction: row; /* Horizontal layout for form elements */
+  gap: 10px;
+  justify-content: center;
+  align-items: center; /* Align form items vertically */
+}
+
+.search-container input,
+.search-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 150px; /* Adjust label width */
+}
+
+/* Rest of your existing CSS styles */
+
+/* ... Other CSS styles ... */
+
+
+/* ... Other CSS styles ... */
+
+
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.horizontal-container {
+  display: flex;
+  overflow: hidden; /* Hide overflow to prevent scrollbar */
+  flex-wrap: wrap; 
+  margin-left: 0px;/* Wrap items to a new line if needed */
+}
+
+
+.small-container {
+  margin: 10px;
+  text-align:left;
+  width: 250px; /* Increased width */
+  height: 250px;   /* Increased height */
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s; /* Add transition for the pop-out effect */
+}
+
+
+.small-container:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.rectangle {
+  width: 250px; /* Increased width */
+  height: 180px; /* Increased height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.rectangle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Add style for the container that fills the page */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Fill the full viewport height */
+  background-color: #fff;
+  padding: 20px; /* Add padding to center content */
+}
+
+.search-results {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Wrap items to a new line if needed */
+}
+
+.property-results,
+.listing-results {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.property {
+  margin-bottom: 10px;
+}
+
+.listing {
+  margin-bottom: 10px;
+}
+
+.property img,
+.listing img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.property h3,
+.listing h3 {
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+.property p,
+.listing p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+/* ... Other CSS styles ... */

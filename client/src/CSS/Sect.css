@@ -1,0 +1,53 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center the content */
+  margin: 5px;
+  background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-color: rgba(119, 105, 105, 0.5); /* Semi-transparent black background */
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply; /* Optional: Adjust the blending mode for the background image and color */
+  color: rgb(236, 223, 223); /* Text color for the section */
+  height: 500px; /* Increase the height of the section */
+}
+
+
+.image-container,
+.text-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.text-container {
+  margin-top: 0px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  color: #cbd8d3;
+}
+
+.text-container h1 {
+  font-size: 100px;
+  margin-bottom: 10px;
+  color:  #015ab9;
+ font-family: fantasy;
+}
+
+.text-container p {
+  font-size: 30px;
+  color:  #015ab9;
+ font-weight: 500;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+

@@ -1,0 +1,66 @@
+/* Favourites.css */
+
+.favorites-container {
+    padding: 20px;
+  }
+  
+  .favorites-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .property-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-card h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .property-card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .property-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .property-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .property-card {
+      padding: 10px;
+    }
+  
+    .property-card h4 {
+      font-size: 18px;
+    }
+  
+    .property-card p {
+      font-size: 12px;
+    }
+  
+    .property-card button {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }
+  
